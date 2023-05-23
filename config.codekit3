@@ -7,8 +7,16 @@
       "uuidString" : "14DDDAA4-A153-4153-96DF-97B193C74A2B"
     }
   ],
-  "creatorBuild" : "34365",
+  "creatorBuild" : "34472",
   "files" : {
+    "\/.gitattributes" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.gitattributes",
+      "oF" : 0
+    },
     "\/assets\/chonk.png" : {
       "ft" : 32768,
       "iS" : 1088557,
@@ -34,18 +42,418 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/chonk.png" : {
-      "ft" : 32768,
-      "iS" : 1088557,
+    "\/deploy\/img\/FeaturesSpecs\/fast.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/FeaturesSpecs\/fast.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/FeaturesSpecs\/features.jpg" : {
+      "ft" : 16384,
+      "iS" : 208267,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/chonk.png",
+      "oAP" : "\/deploy\/img\/FeaturesSpecs\/features.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/deploy\/img\/FeaturesSpecs\/Hardware.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/FeaturesSpecs\/Hardware.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/FeaturesSpecs\/infinity.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/FeaturesSpecs\/infinity.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/FeaturesSpecs\/laser.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/FeaturesSpecs\/laser.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/FeaturesSpecs\/safety.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/FeaturesSpecs\/safety.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/FeaturesSpecs\/specs.jpg" : {
+      "ft" : 16384,
+      "iS" : 70244,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/FeaturesSpecs\/specs.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/FeaturesSpecs\/time.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/FeaturesSpecs\/time.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Gallery\/gallery1.jpg" : {
+      "ft" : 16384,
+      "iS" : 60775,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Gallery\/gallery1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Gallery\/gallery2.jpg" : {
+      "ft" : 16384,
+      "iS" : 72619,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Gallery\/gallery2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Gallery\/gallery3.jpg" : {
+      "ft" : 16384,
+      "iS" : 89470,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Gallery\/gallery3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Gallery\/gallery4.jpg" : {
+      "ft" : 16384,
+      "iS" : 78451,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Gallery\/gallery4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Gallery\/gallery5.jpg" : {
+      "ft" : 16384,
+      "iS" : 68671,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Gallery\/gallery5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Gallery\/gallery6.jpg" : {
+      "ft" : 16384,
+      "iS" : 72987,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Gallery\/gallery6.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Gallery\/gallery7.jpg" : {
+      "ft" : 16384,
+      "iS" : 64222,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Gallery\/gallery7.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Gallery\/gallery8.jpg" : {
+      "ft" : 16384,
+      "iS" : 69694,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Gallery\/gallery8.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Header\/emptycart.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Header\/emptycart.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Header\/search.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Header\/search.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Product\/glowforgepro.jpg" : {
+      "ft" : 16384,
+      "iS" : 132204,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Product\/glowforgepro.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Reviews\/review1.jpg" : {
+      "ft" : 16384,
+      "iS" : 38989,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Reviews\/review1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Reviews\/review2.jpg" : {
+      "ft" : 16384,
+      "iS" : 42710,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Reviews\/review2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Reviews\/review3.jpg" : {
+      "ft" : 16384,
+      "iS" : 65792,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Reviews\/review3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Reviews\/review4.jpg" : {
+      "ft" : 16384,
+      "iS" : 57389,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Reviews\/review4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Reviews\/review5.jpg" : {
+      "ft" : 16384,
+      "iS" : 33436,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Reviews\/review5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Reviews\/review6.jpg" : {
+      "ft" : 16384,
+      "iS" : 41506,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Reviews\/review6.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Reviews\/reviewcard1.jpg" : {
+      "ft" : 16384,
+      "iS" : 71893,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Reviews\/reviewcard1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Reviews\/reviewcard2.jpg" : {
+      "ft" : 16384,
+      "iS" : 81621,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Reviews\/reviewcard2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Reviews\/reviewcard3.jpg" : {
+      "ft" : 16384,
+      "iS" : 101408,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Reviews\/reviewcard3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/SignUp\/background.jpg" : {
+      "ft" : 16384,
+      "iS" : 1451215,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/SignUp\/background.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Socials\/FB.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Socials\/FB.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Socials\/IG.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Socials\/IG.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Socials\/LI.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Socials\/LI.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Socials\/pin.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Socials\/pin.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Socials\/twitter.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Socials\/twitter.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Socials\/YT.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Socials\/YT.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/index.html" : {
       "cB" : 0,
@@ -278,7 +686,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 673791564.33405399,
-    "displayValue" : "Joe-Web-3-Template",
+    "displayValue" : "Web3Final",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-unblue",
     "iconImageWasSetByUser" : 0
@@ -797,6 +1205,10 @@
         "active" : 0,
         "optionString" : "'always', {exceptAfterSingleLine: false}"
       },
+      "logical-assignment-operators" : {
+        "active" : 0,
+        "optionString" : "'always',  {'enforceForIfStatements': false}"
+      },
       "max-classes-per-file" : {
         "active" : 0,
         "optionString" : "{'ignoreExpressions': false, 'max': 1}"
@@ -957,6 +1369,9 @@
       "no-empty-pattern" : {
         "active" : 1
       },
+      "no-empty-static-block" : {
+        "active" : 0
+      },
       "no-eq-null" : {
         "active" : 0
       },
@@ -988,7 +1403,8 @@
         "active" : 1
       },
       "no-fallthrough" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'allowEmptyCase': false}"
       },
       "no-floating-decimal" : {
         "active" : 0
@@ -1096,6 +1512,9 @@
       "no-new-func" : {
         "active" : 0
       },
+      "no-new-native-nonconstructor" : {
+        "active" : 0
+      },
       "no-new-object" : {
         "active" : 0
       },
@@ -1150,7 +1569,8 @@
         "optionString" : "'event', 'fdescribe'"
       },
       "no-restricted-imports" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : ""
       },
       "no-restricted-properties" : {
         "active" : 0,
@@ -1778,6 +2198,7 @@
       "createDeclarationFile" : 0,
       "jsxMode" : 0,
       "minifierStyle" : 0,
+      "moduleDetectionType" : 0,
       "moduleResolutionType" : 0,
       "moduleType" : 2,
       "removeComments" : 0,
@@ -1834,6 +2255,7 @@
       "ENVIRONMENT:::$NODE_ENV"
     ],
     "rollupTreeshakingEnabled" : 1,
+    "rollupTreeshakingModuleSideEffects" : 1,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
@@ -1908,7 +2330,7 @@
       },
       "comments" : {
         "active" : 0,
-        "flagValue" : -1
+        "flagValue" : 1
       },
       "comparisons" : {
         "active" : 1,

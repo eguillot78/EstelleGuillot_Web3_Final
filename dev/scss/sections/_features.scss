@@ -1,0 +1,107 @@
+/* =============
+   Features
+============= */
+
+.features{
+
+    .usage{
+
+        padding: 0px 0px 32px 0px;
+        display:grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: 
+         ". fu1 ."
+         ". fu2 ."
+        ;
+
+        @include lg{
+            padding: 0px 0px 70px 0px;
+            display:grid;
+            grid-template-columns: 136px auto auto 136px;
+            grid-template-areas: 
+             ". fu1 fu2 ."
+            ;
+
+        .fu1{
+            grid-area:fu1;
+        }
+
+        .fu2{
+            grid-area:fu2;
+        }
+
+        }
+    }
+
+    .tech{
+
+        padding: 0px 0px 19px 0px;
+        gap:16px;
+        display:grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: 
+         ". icon1 ."
+         ". content1 ."
+         ". icon2 ."
+         ". content2 ."
+         ". icon3 ."
+         ". content3 ."
+         ". icon4 ."
+         ". content4 ."
+         ". icon5 ."
+         ". content5 ."
+        ;
+
+        @include lg{
+
+            padding: 0px 0px 124px 0px;
+            display:grid;
+            grid-template-columns: 16px auto auto 16px auto auto 16px;
+            grid-template-areas: 
+            ". icon1 content1 . icon2 content2 ."
+            ". icon3 content3 . icon4 content4 ."
+            ". icon5 content5 . icon6 content5 ."
+            ;
+        }
+
+        .icon1{
+            grid-area: icon1;
+        }
+
+        .content1{
+            grid-area: content1;
+        }
+
+        .icon2{
+            grid-area: icon1;
+        }
+
+        .content2{
+            grid-area: content1;
+        }
+
+        .icon3{
+            grid-area: icon1;
+        }
+
+        .content3{
+            grid-area: content1;
+        }
+
+        .icon4{
+            grid-area: icon1;
+        }
+
+        .content4{
+            grid-area: content1;
+        }
+
+        .icon5{
+            grid-area: icon1;
+        }
+
+        .content5{
+            grid-area: content1;
+        }
+    }
+}

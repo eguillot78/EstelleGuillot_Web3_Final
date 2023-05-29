@@ -1,0 +1,78 @@
+/* =============
+    Product Page
+============= */
+
+.product{
+
+        &.product-container{
+
+            h1{
+                color: $green;
+                font-weight: 600;
+            }
+
+            display:grid;
+            grid-template-columns: 16px auto 16px;
+            grid-template-areas: 
+            ". pp1 ."
+            ". pp2 ."
+            ". pp3 ."
+            ". pp4 ."
+            ". pp5 ."
+            ". pp6 ."
+            ;
+
+            padding: 0px 64px 0px 96px;
+
+            button{
+                color:$white;
+                background-color: $hot-pink;
+                padding:0px 0px 0px 0px;
+                text-decoration: none;
+                text-align:center;
+                border:none;
+                transition: .5s;
+            }
+
+            @include lg{
+                display:grid;
+                grid-template-columns: 136px auto auto 136px;
+                grid-template-areas: 
+                ". pp1 pp2 ."
+                ". pp1 pp3 ."
+                ". pp1 pp4 ."
+                ". pp1 pp5 ."
+                ". pp1 pp6 ."
+                ;
+            }
+    
+            .ppimage{
+                grid-area:pp1;
+            }
+
+            .pptitle{
+                grid-area:pp2;
+            }
+
+            .ppreviews{
+                grid-area:pp3;
+                padding:0px 0px 24px 0px;
+            }
+
+            .ppdcost{
+                grid-area:pp4;
+                padding:0px 0px 24px 0px;
+            }
+
+            .ppdescription{
+                grid-area:pp5;
+                padding:0px 0px 16px 0px;
+            }
+
+            .ppbutton{
+                grid-area:pp6;
+            }
+    
+        }
+
+ }

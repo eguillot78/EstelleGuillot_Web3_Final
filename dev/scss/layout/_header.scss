@@ -1,3 +1,23 @@
 /* =============
     Header
 ============= */
+
+header{
+
+    background: $navy;
+
+   &.container{
+    
+        height:33px;
+
+        @include lg{
+            height:77px;
+        }
+
+        display:grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: 
+         ". content ."
+        ;
+   }
+}

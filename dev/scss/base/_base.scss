@@ -2,4 +2,39 @@
     Base
 ============= */
 
+.large-images{
 
+    width:100%;
+    display:block;
+
+}
+
+.container{
+
+    display:grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: 
+     ". content ."
+    ;
+
+    @include lg{
+        display:grid;
+        grid-template-columns: 136px auto 136px;
+        grid-template-areas: 
+        ". content ."
+        ;
+    }
+
+    .content{
+        grid-area:content;
+    }
+
+}
+
+@include sm{
+
+}
+
+@include lg{
+
+}

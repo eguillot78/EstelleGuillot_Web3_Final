@@ -352,6 +352,27 @@ template {
 /* =============
     Base
 ============= */
+.large-images {
+  width: 100%;
+  display: block;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". content .";
+}
+@media (min-width: 992px) {
+  .container {
+    display: grid;
+    grid-template-columns: 136px auto 136px;
+    grid-template-areas: ". content .";
+  }
+}
+.container .content {
+  grid-area: content;
+}
+
 /* =============
     Typography
 ============= */
@@ -382,6 +403,225 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  background: #192235;
+}
+header.container {
+  height: 33px;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". content .";
+}
+@media (min-width: 992px) {
+  header.container {
+    height: 77px;
+  }
+}
+
 /* =============
     Footer
 ============= */
+/* =============
+   Features
+============= */
+.features .usage {
+  padding: 0px 0px 32px 0px;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". fu1 ." ". fu2 .";
+}
+@media (min-width: 992px) {
+  .features .usage {
+    padding: 0px 0px 70px 0px;
+    display: grid;
+    grid-template-columns: 136px auto auto 136px;
+    grid-template-areas: ". fu1 fu2 .";
+  }
+  .features .usage .fu1 {
+    grid-area: fu1;
+  }
+  .features .usage .fu2 {
+    grid-area: fu2;
+  }
+}
+.features .tech {
+  padding: 0px 0px 19px 0px;
+  gap: 16px;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". icon1 ." ". content1 ." ". icon2 ." ". content2 ." ". icon3 ." ". content3 ." ". icon4 ." ". content4 ." ". icon5 ." ". content5 .";
+}
+@media (min-width: 992px) {
+  .features .tech {
+    padding: 0px 0px 124px 0px;
+    display: grid;
+    grid-template-columns: 16px auto auto 16px auto auto 16px;
+    grid-template-areas: ". icon1 content1 . icon2 content2 ." ". icon3 content3 . icon4 content4 ." ". icon5 content5 . icon6 content5 .";
+  }
+}
+.features .tech .icon1 {
+  grid-area: icon1;
+}
+.features .tech .content1 {
+  grid-area: content1;
+}
+.features .tech .icon2 {
+  grid-area: icon1;
+}
+.features .tech .content2 {
+  grid-area: content1;
+}
+.features .tech .icon3 {
+  grid-area: icon1;
+}
+.features .tech .content3 {
+  grid-area: content1;
+}
+.features .tech .icon4 {
+  grid-area: icon1;
+}
+.features .tech .content4 {
+  grid-area: content1;
+}
+.features .tech .icon5 {
+  grid-area: icon1;
+}
+.features .tech .content5 {
+  grid-area: content1;
+}
+
+/* =============
+   Gallery
+============= */
+.gallery.gallery-container {
+  padding: 0px 0px 96px 0px;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". pgtitle ." ". pggrid . ";
+}
+@media (min-width: 992px) {
+  .gallery.gallery-container {
+    padding: 0px 0px 204px 0px;
+    display: grid;
+    grid-template-columns: 136px auto 136px;
+    grid-template-areas: ". pgtitle ." ". pggrid . ";
+  }
+}
+.gallery.gallery-container .pgtitle {
+  grid-area: pgtitle;
+}
+.gallery.gallery-container .pggrid {
+  padding: 0px 32px 0px 16px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 8px;
+  grid-template-areas: "g1 g1 g1 g1 g2 g2 g2" "g3 g3 g3 g4 g4 g4 g4" "g5 g5 g5 g5 g6 g6 g6" "g7 g7 g7 g8 g8 g8 g8";
+}
+@media (min-width: 992px) {
+  .gallery.gallery-container .pggrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 16px;
+    grid-template-areas: "g1 g1 g1 g1 g2 g2 g2 g3 g3 g3 g4 g4 g4 g4" "g5 g5 g5 g5 g6 g6 g6 g7 g7 g7 g8 g8 g8 g8";
+  }
+}
+.gallery.gallery-container .pggrid .g1 {
+  grid-area: g1;
+}
+.gallery.gallery-container .pggrid .g2 {
+  grid-area: g2;
+}
+.gallery.gallery-container .pggrid .g3 {
+  grid-area: g3;
+}
+.gallery.gallery-container .pggrid .g4 {
+  grid-area: g4;
+}
+.gallery.gallery-container .pggrid .g5 {
+  grid-area: g5;
+}
+.gallery.gallery-container .pggrid .g6 {
+  grid-area: g6;
+}
+.gallery.gallery-container .pggrid .g7 {
+  grid-area: g7;
+}
+.gallery.gallery-container .pggrid .g8 {
+  grid-area: g8;
+}
+
+/* =============
+    Product Page
+============= */
+.product.product-container {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". pp1 ." ". pp2 ." ". pp3 ." ". pp4 ." ". pp5 ." ". pp6 .";
+  padding: 0px 64px 0px 96px;
+}
+.product.product-container h1 {
+  color: #6EB6AA;
+  font-weight: 600;
+}
+.product.product-container button {
+  color: #fff;
+  background-color: #CB53DE;
+  padding: 0px 0px 0px 0px;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  transition: 0.5s;
+}
+@media (min-width: 992px) {
+  .product.product-container {
+    display: grid;
+    grid-template-columns: 136px auto auto 136px;
+    grid-template-areas: ". pp1 pp2 ." ". pp1 pp3 ." ". pp1 pp4 ." ". pp1 pp5 ." ". pp1 pp6 .";
+  }
+}
+.product.product-container .ppimage {
+  grid-area: pp1;
+}
+.product.product-container .pptitle {
+  grid-area: pp2;
+}
+.product.product-container .ppreviews {
+  grid-area: pp3;
+  padding: 0px 0px 24px 0px;
+}
+.product.product-container .ppdcost {
+  grid-area: pp4;
+  padding: 0px 0px 24px 0px;
+}
+.product.product-container .ppdescription {
+  grid-area: pp5;
+  padding: 0px 0px 16px 0px;
+}
+.product.product-container .ppbutton {
+  grid-area: pp6;
+}
+
+/* =============
+   specs
+============= */
+.specs.specs-container {
+  padding: 0px 0px 96px 0px;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". scontent ." ". simage .";
+}
+@media (min-width: 992px) {
+  .specs.specs-container {
+    padding: 0px 0px 204px 0px;
+    gap: 16px;
+    display: grid;
+    grid-template-columns: 136px auto auto 136px;
+    grid-template-areas: ". scontent simage .";
+  }
+}
+.specs.specs-container .scontent {
+  grid-area: scontent;
+}
+.specs.specs-container .simage {
+  grid-area: simage;
+}

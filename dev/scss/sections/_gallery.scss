@@ -1,0 +1,87 @@
+/* =============
+   Gallery
+============= */
+
+.gallery{
+
+    &.gallery-container{
+        padding: 0px 0px 96px 0px;
+        display:grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: 
+        ". pgtitle ."
+        ". pggrid . "
+        ;
+
+        @include lg{
+            padding: 0px 0px 204px 0px;
+            display:grid;
+            grid-template-columns: 136px auto 136px;
+            grid-template-areas: 
+            ". pgtitle ."
+            ". pggrid . "
+            ;
+        }
+
+        .pgtitle{
+            grid-area:pgtitle;
+        }
+
+        .pggrid{
+
+            padding: 0px 32px 0px 16px;
+
+            display:grid;
+            grid-template-columns: auto auto;
+            gap:8px;
+            grid-template-areas:
+            "g1 g1 g1 g1 g2 g2 g2"
+            "g3 g3 g3 g4 g4 g4 g4"
+            "g5 g5 g5 g5 g6 g6 g6"
+            "g7 g7 g7 g8 g8 g8 g8"
+            ;
+
+            @include lg{
+            display:grid;
+            grid-template-columns: auto auto auto auto;
+            gap:16px;
+            grid-template-areas:
+            "g1 g1 g1 g1 g2 g2 g2 g3 g3 g3 g4 g4 g4 g4"
+            "g5 g5 g5 g5 g6 g6 g6 g7 g7 g7 g8 g8 g8 g8"
+            ;
+            }
+
+            .g1{
+                grid-area:g1;
+            }
+
+            .g2{
+                grid-area:g2;
+            }
+
+            .g3{
+                grid-area:g3;
+            }
+
+            .g4{
+                grid-area:g4;
+            }
+
+            .g5{
+                grid-area:g5;
+            }
+
+            .g6{
+                grid-area:g6;
+            }
+
+            .g7{
+                grid-area:g7;
+            }
+
+            .g8{
+                grid-area:g8;
+            }
+        }
+    }
+ }

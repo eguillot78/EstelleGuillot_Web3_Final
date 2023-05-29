@@ -1,0 +1,35 @@
+/* =============
+   specs
+============= */
+
+.specs{
+    
+   &.specs-container{
+    padding: 0px 0px 96px 0px;
+    display:grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: 
+     ". scontent ."
+     ". simage ."
+    ;
+
+    @include lg{
+      padding: 0px 0px 204px 0px;
+      gap:16px;
+      display:grid;
+      grid-template-columns: 136px auto auto 136px;
+      grid-template-areas: 
+      ". scontent simage ."
+    ;
+    }
+
+    .scontent{
+      grid-area:scontent;
+    }
+
+    .simage{
+      grid-area:simage;
+    }
+
+   }
+}

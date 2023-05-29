@@ -1,0 +1,84 @@
+/* =============
+   sign up
+============= */
+
+.signup{
+
+  &.signup-container{
+
+    background-color: $green;
+    color: $white;
+    display:grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: 
+     ". sucontent ."
+    ;
+
+    @include lg{
+      display:grid;
+      width: 525px;
+      align-self: right;
+      grid-template-columns: auto auto auto;
+      grid-template-areas: 
+      ". sucontent ."
+    }
+    
+    .sucontent{
+        padding: 8px 8px 8px 8px;
+        grid-area:sucontent;
+
+        @include lg{
+          padding: 16px 32px 16px 32px;
+        }
+
+        h1{
+          align-self: center;
+        }
+
+        p{
+          align-self: center;
+        }
+
+        form{
+          display:flex;
+          flex-flow:wrap;
+          justify-content:end;
+        
+          input{
+              width:100%;
+              color:$white;
+              background: $green;
+              border-color: white;
+              padding:15px 10px 15px 10px;
+              margin:20px 0px 20px 0px;
+          }
+        
+          ::placeholder{
+              color:$white;
+              opacity: 0.5;
+          }
+        
+          ::-ms-input-placeholder{
+              color:$white;
+          }
+        }
+
+        button{
+          color:$green;
+          background-color: $white;
+          padding:10px 20px 10px 20px;
+          text-decoration: none;
+          text-align:center;
+          border:none;
+          transition: .5s;
+
+      }
+
+      button:hover{
+          background-color: $hot-pink;
+        }
+    }
+    
+}
+
+}

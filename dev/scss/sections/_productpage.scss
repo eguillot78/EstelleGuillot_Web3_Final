@@ -4,75 +4,128 @@
 
 .product{
 
-        &.product-container{
+    color: $dark-grey;
+    font-weight: 400;
+    font-size: 12px;
+  
+    @include lg{
+      font-size: 16px;
+    }
+    
+    padding: 64px 0px 96px 0px;
+    display:grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: 
+    ". ppcontent ."
+    ;
 
-            h1{
-                color: $green;
-                font-weight: 600;
+    @include lg{
+        padding: 124px 0px 204px 0px;
+        display:grid;
+        grid-template-columns: 136px auto 136px;
+        grid-template-areas: 
+        ". ppcontent ."
+        ;
+    }
+    
+            .ppcontent{
+                grid-area:ppcontent;
+                display:grid;
+                grid-template-columns: 100%;
+                grid-template-areas:
+                "pp1"
+                "pp2"
+                ;
+
+                @include lg{
+                    grid-area:ppcontent;
+                    display:grid;
+                    grid-template-columns: 50% 50%;
+                    grid-template-areas:
+                    "pp1 pp2"
+                    ;
+                }
+
+                &.pp1{
+                    margin:64px 0px 64px 0px;
+                    grid-area:pp1;
+                }
+    
+                &.pp2{
+                    grid-area:pp2;
+                }
             }
 
-            display:grid;
-            grid-template-columns: 16px auto 16px;
-            grid-template-areas: 
-            ". pp1 ."
-            ". pp2 ."
-            ". pp3 ."
-            ". pp4 ."
-            ". pp5 ."
-            ". pp6 ."
-            ;
+            .large-images{
+                margin:0px 0px 64px 0px;
 
-            padding: 0px 64px 0px 96px;
+                @include lg{
+                    margin:0px 0px 0px 0px;
+                }
+            }
+
+            h1{
+                margin:0px 0px 0px 0px;
+
+                @include lg{
+                    margin:0px 0px 0px 0px;
+                }
+            }
+        
+            h2{
+                color: $green;
+                font-weight: 600;
+                margin:24px 0px 0px 0px;
+
+                @include lg{
+                    margin:48px 0px 0px 0px;
+                }
+            }
+
+            p{
+                margin:24px 0px 16px 0px;
+
+                @include lg{
+                    margin:48px 0px 48px 0px;
+                }
+            }
 
             button{
                 color:$white;
                 background-color: $hot-pink;
-                padding:0px 0px 0px 0px;
+                padding:8px 0px 8px 0px;
+                width:100%;
                 text-decoration: none;
                 text-align:center;
                 border:none;
                 transition: .5s;
+
+                @include lg{
+                    width:392px;
+                }
             }
 
-            @include lg{
-                display:grid;
-                grid-template-columns: 136px auto auto 136px;
-                grid-template-areas: 
-                ". pp1 pp2 ."
-                ". pp1 pp3 ."
-                ". pp1 pp4 ."
-                ". pp1 pp5 ."
-                ". pp1 pp6 ."
-                ;
-            }
-    
-            .ppimage{
-                grid-area:pp1;
-            }
+            button:hover{
+                color: $white;
+                background-color: $red;
+              }
 
-            .pptitle{
-                grid-area:pp2;
-            }
+    h3{
+        color: $green;
+        font-size: 24px;
 
-            .ppreviews{
-                grid-area:pp3;
-                padding:0px 0px 24px 0px;
-            }
-
-            .ppdcost{
-                grid-area:pp4;
-                padding:0px 0px 24px 0px;
-            }
-
-            .ppdescription{
-                grid-area:pp5;
-                padding:0px 0px 16px 0px;
-            }
-
-            .ppbutton{
-                grid-area:pp6;
-            }
-    
+        @include lg{
+            font-size: 48px;
         }
+    }
 
+    h5{
+        font-size: 32px;
+        margin: 0px 0px 16px 0px;
+
+        @include lg{
+            margin: 0px 0px 16px 0px;
+            font-size: 64px;
+        }
+    }
  }

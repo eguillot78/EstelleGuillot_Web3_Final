@@ -2,106 +2,244 @@
    Features
 ============= */
 
-.features{
+.usage{
 
-    .usage{
+    color: $dark-grey;
+    font-weight: 400;
+    font-size: 16px;
+  
+    @include lg{
+      font-size: 24px;
+    }
 
-        padding: 0px 0px 32px 0px;
+    padding: 0px 0px 32px 0px;
+    display:grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: 
+     ". ucontent ."
+    ;
+
+    @include lg{
+        padding: 0px 0px 70px 0px;
         display:grid;
-        grid-template-columns: 16px auto 16px;
+        grid-template-columns: 136px auto auto 136px;
         grid-template-areas: 
-         ". fu1 ."
-         ". fu2 ."
+        ". ucontent ."
         ;
 
-        @include lg{
-            padding: 0px 0px 70px 0px;
+    }
+
+        .ucontent{
+            grid-area:ucontent;
             display:grid;
-            grid-template-columns: 136px auto auto 136px;
+            grid-template-columns: auto;
             grid-template-areas: 
-             ". fu1 fu2 ."
-            ;
+             "u2"
+             "u1"
+             ;
 
-        .fu1{
-            grid-area:fu1;
+             @include lg{
+                grid-area:ucontent;
+                display:grid;
+                grid-template-columns: auto;
+                grid-template-areas: 
+                 "u1 u2"
+                 ;
+             }
+
+            .u1{
+                grid-area:u1;
+            }
+    
+            .u2{
+                grid-area:u2;
+            }
         }
 
-        .fu2{
-            grid-area:fu2;
-        }
+    h3{
+        font-size: 24px;
 
+        @include lg{
+            font-size: 48px;
         }
     }
 
-    .tech{
+    h5{
+        font-size: 16px;
 
-        padding: 0px 0px 19px 0px;
-        gap:16px;
+        @include lg{
+            font-size: 32px;
+        }
+    }
+
+    p{
+        margin: 8px 0px 8px 0px;
+    }
+}
+
+.tech{
+
+    padding: 0px 0px 19px 0px;
+    display:grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: 
+     ". tcontent ."
+    ;
+
+    @include lg{
+
+        padding: 0px 0px 124px 0px;
         display:grid;
-        grid-template-columns: 16px auto 16px;
+        grid-template-columns: 136px auto 136px;
         grid-template-areas: 
-         ". icon1 ."
-         ". content1 ."
-         ". icon2 ."
-         ". content2 ."
-         ". icon3 ."
-         ". content3 ."
-         ". icon4 ."
-         ". content4 ."
-         ". icon5 ."
-         ". content5 ."
+         ". tcontent ."
+        ;
+
+    }
+
+    .tcontent{
+        grid-area:tcontent;
+        display:grid;
+        grid-template-columns: 100%;
+        grid-template-areas:
+        "." 
+        "icon1"
+        "content1"
+        "icon2"
+        "content2"
+        "icon3"
+        "content3"
+        "icon4"
+        "content4"
+        "icon5"
+        "content5"
+        "icon6"
+        "content6"
         ;
 
         @include lg{
-
-            padding: 0px 0px 124px 0px;
+            grid-area:tcontent;
             display:grid;
-            grid-template-columns: 16px auto auto 16px auto auto 16px;
+            grid-template-columns: auto auto auto auto;
             grid-template-areas: 
-            ". icon1 content1 . icon2 content2 ."
-            ". icon3 content3 . icon4 content4 ."
-            ". icon5 content5 . icon6 content5 ."
+            "icon1 content1 icon2 content2"
+            "icon3 content3 icon4 content4"
+            "icon5 content5 icon6 content6"
             ;
         }
 
         .icon1{
             grid-area: icon1;
         }
-
+    
         .content1{
             grid-area: content1;
         }
-
+    
         .icon2{
-            grid-area: icon1;
+            grid-area: icon2;
         }
-
+    
         .content2{
-            grid-area: content1;
+            grid-area: content2;
         }
-
+    
         .icon3{
-            grid-area: icon1;
+            grid-area: icon3;
         }
-
+    
         .content3{
-            grid-area: content1;
+            grid-area: content3;
         }
-
+    
         .icon4{
-            grid-area: icon1;
+            grid-area: icon4;
         }
-
+    
         .content4{
-            grid-area: content1;
+            grid-area: content4;
         }
-
+    
         .icon5{
-            grid-area: icon1;
+            grid-area: icon5;
+        }
+    
+        .content5{
+            grid-area: content5;
         }
 
-        .content5{
-            grid-area: content1;
+        .icon6{
+            grid-area: icon6;
+        }
+
+        .content6{
+            grid-area: content6;
+        }
+    }
+
+    img{
+        display: inline-block;
+    }
+
+    h3{
+        font-size: 24px;
+
+        @include lg{
+            font-size: 48px;
+        }
+    }
+
+    h5{
+        font-size: 16px;
+        color: $purple;
+        margin: 8px 0px 8px 0px;
+
+        @include lg{
+            font-size: 32px;
+        }
+    }
+
+    p{
+        color: $dark-grey;
+        font-size: 16px;
+        margin: 8px 0px 8px 0px;
+
+        @include lg{
+            font-size:24px;
+        }
+    }
+
+}
+
+.techtitle{
+
+    padding: 0px 0px 16px 0px;
+    display:grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: 
+     ". techt ."
+    ;
+
+    @include lg{
+
+        padding: 0px 0px 32px 0px;
+        display:grid;
+        grid-template-columns: 136px auto 136px;
+        grid-template-areas: 
+         ". techt ."
+        ;
+    }
+
+    .techt{
+        grid-area: techt;
+    }
+
+    h3{
+        font-size: 24px;
+        margin: 0px;
+
+        @include lg{
+            font-size: 48px;
         }
     }
 }

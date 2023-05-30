@@ -4,52 +4,46 @@
 
 .gallery{
 
-    &.gallery-container{
-        padding: 0px 0px 96px 0px;
+    color: $dark-grey;
+    font-weight: 400;
+
+    padding: 0px 0px 8px 0px;
+    display:grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: 
+    ". gcontent ."
+    ;
+
+    @include lg{
+        padding: 0px 0px 16px 0px;
         display:grid;
-        grid-template-columns: 16px auto 16px;
+        grid-template-columns: 136px auto 136px;
         grid-template-areas: 
-        ". pgtitle ."
-        ". pggrid . "
+        ". gcontent ."
+        ; 
+    }
+
+    .gcontent{
+        grid-area: gcontent;
+        display:grid;
+        grid-template-columns: auto auto;
+        gap:8px;
+        grid-template-areas:
+        "g1 g1 g1 g1 g2 g2 g2"
+        "g4 g4 g4 g3 g3 g3 g3"
+        "g6 g6 g6 g6 g5 g5 g5"
+        "g7 g7 g7 g8 g8 g8 g8"
         ;
-
-        @include lg{
-            padding: 0px 0px 204px 0px;
-            display:grid;
-            grid-template-columns: 136px auto 136px;
-            grid-template-areas: 
-            ". pgtitle ."
-            ". pggrid . "
-            ;
-        }
-
-        .pgtitle{
-            grid-area:pgtitle;
-        }
-
-        .pggrid{
-
-            padding: 0px 32px 0px 16px;
-
-            display:grid;
-            grid-template-columns: (2, 1fr);
-            gap:8px;
-            grid-template-areas:
-            "g1 g1 g1 g1 g2 g2 g2"
-            "g3 g3 g3 g4 g4 g4 g4"
-            "g5 g5 g5 g5 g6 g6 g6"
-            "g7 g7 g7 g8 g8 g8 g8"
-            ;
 
             @include lg{
             display:grid;
-            grid-template-columns: (4, 1fr);
+            grid-template-columns: auto auto auto auto;
             gap:16px;
             grid-template-areas:
             "g1 g1 g1 g1 g2 g2 g2 g3 g3 g3 g4 g4 g4 g4"
             "g5 g5 g5 g5 g6 g6 g6 g7 g7 g7 g8 g8 g8 g8"
             ;
-            }
+        }
 
             .g1{
                 grid-area:g1;
@@ -84,4 +78,37 @@
             }
         }
     }
- }
+
+.gallerylink{
+    color: $hot-pink;
+    font-weight: 400;
+
+    padding: 0px 0px 96px 0px;
+    display:grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: 
+    ". glink ."
+    ;
+
+    @include lg{
+        padding: 0px 0px 204px 0px;
+        display:grid;
+        grid-template-columns: 136px auto 136px;
+        grid-template-areas: 
+        ". glink ."
+        ; 
+    }
+
+    .glink{
+        grid-area: glink;
+    }
+
+    a{
+        color: $hot-pink;
+        transition: .5s;
+    }
+    
+    a:hover{
+        color: $red;
+    }
+}

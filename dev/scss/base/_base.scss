@@ -2,6 +2,18 @@
     Base
 ============= */
 
+.first{
+    background-color: cyan;
+}
+
+.second{
+    background-color: red;
+}
+
+.third{
+    background-color: lime;
+}
+
 .large-images{
 
     width:100%;
@@ -29,6 +41,54 @@
         grid-area:content;
     }
 
+}
+
+.title{
+
+    display:grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: 
+     ". tcontent ."
+    ;
+
+    @include lg{
+        display:grid;
+        grid-template-columns: 136px auto 136px;
+        grid-template-areas: 
+        ". tcontent ."
+        ;
+    }
+
+    .tcontent{
+        grid-area:tcontent;
+        border-bottom: 2px solid $light-grey;
+        margin: 0px 0px 32px 0px;
+
+        @include lg{
+            margin: 0px 0px 64px 0px;
+        }
+    }
+
+    h5{
+        font-size: 32px;
+        margin: 0px 0px 16px 0px;
+
+        @include lg{
+            font-size: 64px;
+            margin: 0px 0px 32px 0px;
+        }
+    }
+
+}
+
+.show-menu{
+    display: block Impor !important;
+}
+
+.hide-for-lg{
+    @include lg{
+        display: none;
+    }
 }
 
 @include sm{

@@ -2,22 +2,112 @@
     Header
 ============= */
 
-header{
+.header{
 
     background: $navy;
+    color: $white;
+    max-height: 77px;
+    font-size: 24px;
 
-   &.container{
-    
-        height:33px;
+    display:grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: 
+    ". hcontent ."
+    ;
+
+    .hcontent{
+
+        grid-area: hcontent;
+        display:grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-areas:
+        "hc1 hc7 hc8"; 
 
         @include lg{
-            height:77px;
+            grid-area: hcontent;
+            display:grid;
+            grid-template-columns: auto auto auto auto auto auto auto auto;
+            grid-template-areas: 
+            "hc1 hc2 hc3 hc4 hc5 hc6 hc7 hc8";
         }
 
-        display:grid;
-        grid-template-columns: 16px auto 16px;
-        grid-template-areas: 
-         ". content ."
-        ;
-   }
+        .hc1{
+            grid-area: hc1;
+        }
+
+        .hc2{
+            display: none;
+
+            @include lg{
+                display: block;
+                grid-area: hc2;
+            }
+        }
+
+        .hc3{
+            display: none;
+
+            @include lg{
+                display: block;
+                grid-area: hc3;
+            }
+        }
+
+        .hc4{
+            display: none;
+
+            @include lg{
+                display: block;
+                grid-area: hc4;
+            }
+        }
+
+        .hc5{
+            display: none;
+
+            @include lg{
+                display: block;
+                grid-area: hc5;
+            }
+        }
+
+        .hc6{
+            display: none;
+
+            @include lg{
+                display: block;
+                grid-area: hc6;
+            }
+        }
+
+        .hc7{
+            grid-area: hc7;
+        }
+
+        .hc8{
+            grid-area: hc8;
+        }
+    }
+
+    a{
+        color: $white;
+        text-decoration: none;
+        transition: .5s;
+    }
+
+    a:hover{
+        color: $red;
+    }
+
+    h5{
+        color: $white;
+        font-size: 20px;
+        margin:8px 0px 8px 0px;
+
+        @include lg{
+            color: $white;
+            font-size: 40px;
+            margin:16px 0px 16px 0px;
+        }
+    }
 }

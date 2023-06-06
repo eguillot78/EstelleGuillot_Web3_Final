@@ -34,7 +34,261 @@
       "oF" : 0,
       "pg" : 0
     },
+<<<<<<< Updated upstream
     "\/deploy\/img\/chonk.png" : {
+=======
+    "\/deploy\/html\/checkout.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/html\/checkout.html",
+      "oF" : 0
+    },
+    "\/deploy\/html\/first.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/html\/first.html",
+      "oF" : 0
+    },
+    "\/deploy\/html\/second.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/html\/second.html",
+      "oF" : 0
+    },
+    "\/deploy\/html\/thankyou.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/html\/thankyou.html",
+      "oF" : 0
+    },
+    "\/deploy\/html\/third.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/html\/third.html",
+      "oF" : 0
+    },
+    "\/deploy\/img\/FeaturesSpecs\/fast.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/FeaturesSpecs\/fast.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/FeaturesSpecs\/features.jpg" : {
+      "ft" : 16384,
+      "iS" : 208267,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/FeaturesSpecs\/features.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/FeaturesSpecs\/Hardware.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/FeaturesSpecs\/Hardware.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/FeaturesSpecs\/infinity.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/FeaturesSpecs\/infinity.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/FeaturesSpecs\/laser.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/FeaturesSpecs\/laser.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/FeaturesSpecs\/safety.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/FeaturesSpecs\/safety.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/FeaturesSpecs\/specs.jpg" : {
+      "ft" : 16384,
+      "iS" : 70244,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/FeaturesSpecs\/specs.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/FeaturesSpecs\/time.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/FeaturesSpecs\/time.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Gallery\/gallery1.jpg" : {
+      "ft" : 16384,
+      "iS" : 60775,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Gallery\/gallery1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Gallery\/gallery2.jpg" : {
+      "ft" : 16384,
+      "iS" : 72619,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Gallery\/gallery2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Gallery\/gallery3.jpg" : {
+      "ft" : 16384,
+      "iS" : 89470,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Gallery\/gallery3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Gallery\/gallery4.jpg" : {
+      "ft" : 16384,
+      "iS" : 78451,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Gallery\/gallery4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Gallery\/gallery5.jpg" : {
+      "ft" : 16384,
+      "iS" : 68671,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Gallery\/gallery5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Gallery\/gallery6.jpg" : {
+      "ft" : 16384,
+      "iS" : 72987,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Gallery\/gallery6.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Gallery\/gallery7.jpg" : {
+      "ft" : 16384,
+      "iS" : 64222,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Gallery\/gallery7.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Gallery\/gallery8.jpg" : {
+      "ft" : 16384,
+      "iS" : 69694,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Gallery\/gallery8.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Header\/emptycart.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Header\/emptycart.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Header\/search.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Header\/search.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Product\/glowforgepromobile.png" : {
+>>>>>>> Stashed changes
       "ft" : 32768,
       "iS" : 1088557,
       "oA" : 0,

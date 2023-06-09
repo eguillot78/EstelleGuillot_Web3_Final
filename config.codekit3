@@ -7,551 +7,15 @@
       "uuidString" : "14DDDAA4-A153-4153-96DF-97B193C74A2B"
     }
   ],
-  "creatorBuild" : "34365",
+  "creatorBuild" : "34472",
   "files" : {
-    "\/assets\/chonk.png" : {
-      "ft" : 32768,
-      "iS" : 1088557,
-      "oA" : 0,
-      "oAP" : "\/assets\/chonk.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/css\/styles.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/css\/styles-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-<<<<<<< Updated upstream
-    "\/deploy\/img\/chonk.png" : {
-=======
-    "\/deploy\/html\/checkout.html" : {
+    "\/.gitattributes" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/html\/checkout.html",
+      "oAP" : "\/.gitattributes",
       "oF" : 0
-    },
-    "\/deploy\/html\/first.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/html\/first.html",
-      "oF" : 0
-    },
-    "\/deploy\/html\/reviews.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/html\/reviews.html",
-      "oF" : 0
-    },
-    "\/deploy\/html\/second.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/html\/second.html",
-      "oF" : 0
-    },
-    "\/deploy\/html\/thankyou.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/html\/thankyou.html",
-      "oF" : 0
-    },
-    "\/deploy\/html\/third.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/html\/third.html",
-      "oF" : 0
-    },
-    "\/deploy\/img\/FeaturesSpecs\/fast.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/FeaturesSpecs\/fast.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/FeaturesSpecs\/features.jpg" : {
-      "ft" : 16384,
-      "iS" : 208267,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/FeaturesSpecs\/features.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/FeaturesSpecs\/Hardware.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/FeaturesSpecs\/Hardware.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/FeaturesSpecs\/infinity.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/FeaturesSpecs\/infinity.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/FeaturesSpecs\/laser.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/FeaturesSpecs\/laser.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/FeaturesSpecs\/safety.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/FeaturesSpecs\/safety.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/FeaturesSpecs\/specs.jpg" : {
-      "ft" : 16384,
-      "iS" : 70244,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/FeaturesSpecs\/specs.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/FeaturesSpecs\/time.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/FeaturesSpecs\/time.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/Gallery\/gallery1.jpg" : {
-      "ft" : 16384,
-      "iS" : 60775,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Gallery\/gallery1.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Gallery\/gallery2.jpg" : {
-      "ft" : 16384,
-      "iS" : 72619,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Gallery\/gallery2.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Gallery\/gallery3.jpg" : {
-      "ft" : 16384,
-      "iS" : 89470,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Gallery\/gallery3.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Gallery\/gallery4.jpg" : {
-      "ft" : 16384,
-      "iS" : 78451,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Gallery\/gallery4.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Gallery\/gallery5.jpg" : {
-      "ft" : 16384,
-      "iS" : 68671,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Gallery\/gallery5.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Gallery\/gallery6.jpg" : {
-      "ft" : 16384,
-      "iS" : 72987,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Gallery\/gallery6.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Gallery\/gallery7.jpg" : {
-      "ft" : 16384,
-      "iS" : 64222,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Gallery\/gallery7.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Gallery\/gallery8.jpg" : {
-      "ft" : 16384,
-      "iS" : 69694,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Gallery\/gallery8.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Header\/emptycart.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/Header\/emptycart.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/Header\/search.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/Header\/search.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/Product\/glowforgepromobile.png" : {
->>>>>>> Stashed changes
-      "ft" : 32768,
-      "iS" : 1088557,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/chonk.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/index.html",
-      "oF" : 0
-    },
-    "\/deploy\/js\/scripts-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/deploy\/js\/scripts-min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-<<<<<<< Updated upstream
-=======
-    "\/dev\/checkout.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/checkout.html",
-      "oF" : 0
-    },
->>>>>>> Stashed changes
-    "\/dev\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/index.html",
-      "oF" : 2
-    },
-    "\/dev\/js\/scripts.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/deploy\/js\/scripts-min.js",
-      "oF" : 2,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/dev\/scss\/base\/_base.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/base\/_base.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/base\/_normalize.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/base\/_normalize.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/base\/_typography.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/base\/_typography.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/components\/_buttons.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_buttons.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/components\/_forms.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_forms.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/components\/_navigation.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_navigation.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/helpers\/_mixins.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/helpers\/_mixins.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/helpers\/_variables.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/helpers\/_variables.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/layout\/_footer.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/layout\/_footer.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/layout\/_header.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/layout\/_header.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/styles.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/css\/styles.css",
-      "oF" : 2,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-<<<<<<< Updated upstream
-=======
-    "\/dev\/thankyou.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/thankyou.html",
-      "oF" : 0
-    },
->>>>>>> Stashed changes
-    "\/README.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/README.html",
-      "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
     }
   },
   "hooks" : [
@@ -562,7 +26,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 673791564.33405399,
-    "displayValue" : "Joe-Web-3-Template",
+    "displayValue" : "Web3Final",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-unblue",
     "iconImageWasSetByUser" : 0
@@ -1081,6 +545,10 @@
         "active" : 0,
         "optionString" : "'always', {exceptAfterSingleLine: false}"
       },
+      "logical-assignment-operators" : {
+        "active" : 0,
+        "optionString" : "'always',  {'enforceForIfStatements': false}"
+      },
       "max-classes-per-file" : {
         "active" : 0,
         "optionString" : "{'ignoreExpressions': false, 'max': 1}"
@@ -1241,6 +709,9 @@
       "no-empty-pattern" : {
         "active" : 1
       },
+      "no-empty-static-block" : {
+        "active" : 0
+      },
       "no-eq-null" : {
         "active" : 0
       },
@@ -1272,7 +743,8 @@
         "active" : 1
       },
       "no-fallthrough" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'allowEmptyCase': false}"
       },
       "no-floating-decimal" : {
         "active" : 0
@@ -1380,6 +852,9 @@
       "no-new-func" : {
         "active" : 0
       },
+      "no-new-native-nonconstructor" : {
+        "active" : 0
+      },
       "no-new-object" : {
         "active" : 0
       },
@@ -1434,7 +909,8 @@
         "optionString" : "'event', 'fdescribe'"
       },
       "no-restricted-imports" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : ""
       },
       "no-restricted-properties" : {
         "active" : 0,
@@ -2062,6 +1538,7 @@
       "createDeclarationFile" : 0,
       "jsxMode" : 0,
       "minifierStyle" : 0,
+      "moduleDetectionType" : 0,
       "moduleResolutionType" : 0,
       "moduleType" : 2,
       "removeComments" : 0,
@@ -2118,6 +1595,7 @@
       "ENVIRONMENT:::$NODE_ENV"
     ],
     "rollupTreeshakingEnabled" : 1,
+    "rollupTreeshakingModuleSideEffects" : 1,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
@@ -2192,7 +1670,7 @@
       },
       "comments" : {
         "active" : 0,
-        "flagValue" : -1
+        "flagValue" : 1
       },
       "comparisons" : {
         "active" : 1,

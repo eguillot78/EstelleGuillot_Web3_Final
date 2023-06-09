@@ -1,0 +1,131 @@
+/* =============
+    Product Page
+============= */
+
+.product{
+
+    color: $dark-grey;
+    font-weight: 400;
+    font-size: 12px;
+  
+    @include lg{
+      font-size: 16px;
+    }
+    
+    padding: 64px 0px 96px 0px;
+    display:grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: 
+    ". ppcontent ."
+    ;
+
+    @include lg{
+        padding: 124px 0px 204px 0px;
+        display:grid;
+        grid-template-columns: 136px auto 136px;
+        grid-template-areas: 
+        ". ppcontent ."
+        ;
+    }
+    
+            .ppcontent{
+                grid-area:ppcontent;
+                display:grid;
+                grid-template-columns: 100%;
+                grid-template-areas:
+                "pp1"
+                "pp2"
+                ;
+
+                @include lg{
+                    grid-area:ppcontent;
+                    display:grid;
+                    grid-template-columns: 50% 50%;
+                    grid-template-areas:
+                    "pp1 pp2"
+                    ;
+                }
+
+                &.pp1{
+                    margin:64px 0px 64px 0px;
+                    grid-area:pp1;
+                }
+    
+                &.pp2{
+                    grid-area:pp2;
+                }
+            }
+
+            .large-images{
+                margin:0px 0px 64px 0px;
+
+                @include lg{
+                    margin:0px 0px 0px 0px;
+                }
+            }
+
+            h1{
+                margin:0px 0px 0px 0px;
+
+                @include lg{
+                    margin:0px 0px 0px 0px;
+                }
+            }
+        
+            h2{
+                color: $green;
+                font-weight: 600;
+                margin:24px 0px 0px 0px;
+
+                @include lg{
+                    margin:48px 0px 0px 0px;
+                }
+            }
+
+            p{
+                margin:24px 0px 16px 0px;
+
+                @include lg{
+                    margin:48px 0px 48px 0px;
+                }
+            }
+
+            button{
+                color:$white;
+                background-color: $hot-pink;
+                padding:8px 0px 8px 0px;
+                width:100%;
+                text-decoration: none;
+                text-align:center;
+                border:none;
+                transition: .5s;
+
+                @include lg{
+                    width:392px;
+                }
+            }
+
+            button:hover{
+                color: $white;
+                background-color: $red;
+              }
+
+    h3{
+        color: $green;
+        font-size: 24px;
+
+        @include lg{
+            font-size: 48px;
+        }
+    }
+
+    h5{
+        font-size: 32px;
+        margin: 0px 0px 16px 0px;
+
+        @include lg{
+            margin: 0px 0px 16px 0px;
+            font-size: 64px;
+        }
+    }
+ }

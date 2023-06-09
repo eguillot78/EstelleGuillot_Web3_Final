@@ -1,0 +1,154 @@
+/* =============
+    Footer
+============= */
+
+.footer{
+
+    color: $dark-grey;
+    font-weight: 400;
+    font-size: 10px;
+
+    @include lg{
+        font-size: 16px;
+    }
+
+    margin:32px 0px 16px 0px;
+    display:grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: 
+     ". fcontent ."
+    ;
+
+    @include lg{
+        margin:204px 0px 64px 0px;
+        display:grid;
+        grid-template-columns: 136px auto 136px;
+        grid-template-areas: 
+        ". fcontent ."
+        ;
+    }
+
+    .fcontent{
+        grid-area:fcontent;
+        display:grid;
+        grid-template-columns: auto auto auto;
+        grid-template-areas: 
+        "f1 f1 f5"
+        "f2 f3 f4"
+        ;
+
+        @include lg{
+            grid-area:fcontent;
+            display:grid;
+            grid-template-columns: auto auto auto auto auto;
+            grid-template-areas: 
+            "f1 f2 f3 f4 f5"
+            ;
+        }
+
+        .f1{
+            grid-area: f1;
+        }
+
+        .f2{
+            grid-area: f2;
+        }
+
+        .f3{
+            grid-area: f3;
+        }
+
+        .f4{
+            grid-area: f4;
+        }
+
+        .f5{
+            grid-area: f5;
+            display:grid;
+            gap:8px;
+            grid-template-columns: auto auto auto;
+            grid-template-areas: 
+            ". . ."
+            "s1 s2 s3"
+            "s4 s5 s6"
+            ;
+
+            @include lg{
+                grid-area: f5;
+                display:grid;
+                gap:16px;
+                grid-template-columns: auto auto auto;
+                grid-template-areas: 
+                ". . ."
+                "s1 s2 s3"
+                "s4 s5 s6"
+                ;
+            }
+        }
+    }
+
+    h4{
+        font-size: 40px;
+        color: $green;
+        margin: 0px;
+    }
+
+    h5{
+        font-size: 16px;
+        color: $purple;
+        margin: 0px;
+    }
+
+    p{
+        font-size: 16px;
+        margin: 0px;
+    }
+
+
+    
+
+}
+
+.footerlinks{
+    color: $grey;
+    font-weight: 400;
+    font-size: 12px;
+
+    margin:0px 0px 8px 0px;
+    display:grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: 
+     ". flinks ."
+    ;
+
+    @include lg{
+        margin:0px 0px 16px 0px;
+        display:grid;
+        grid-template-columns: 136px auto 136px;
+        grid-template-areas: 
+        ". flinks ."
+        ;
+    }
+
+    .flinks{
+        grid-area: flinks;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas:
+        "fl1 fl2"
+        ;
+
+        .fl1{
+            grid-area: fl1;
+        }
+
+        .fl2{
+            grid-area: fl2;
+            text-align: right;
+        }
+    }
+
+    a{
+        color: $hot-pink;
+    }
+}

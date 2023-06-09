@@ -1,0 +1,235 @@
+/* =============
+   reviews
+============= */
+
+.reviews{
+
+  color: $dark-grey;
+  font-weight: 400;
+  font-size: 12px;
+
+  @include lg{
+    font-size: 16px;
+  }
+    
+    padding: 0px 0px 8px 0px;
+    display:grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: 
+     ". rcontent ."
+     ;
+
+    @include lg{
+      padding: 0px 0px 16px 0px;
+      display:grid;
+      grid-template-columns: 136px auto 136px;
+      grid-template-areas: 
+      ". rcontent ."
+      ;
+    }
+
+    .rcontent{
+      grid-area:rcontent;
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-areas:
+      "rtitle"
+      "."
+      "rimages"
+      "rcards"
+      ;
+
+      .rtitle{
+        margin: 0px 0px 16px 0px;
+        border-bottom: 2px solid $light-grey;
+        grid-area:rtitle;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas:
+        "rt1"
+        "rt2"
+        ;
+  
+        @include lg{
+          margin: 0px 0px 64px 0px;
+          border-bottom: 2px solid $light-grey;
+          grid-area:rtitle;
+          display: grid;
+          grid-template-columns: 50% 50%;
+          grid-template-areas:
+          "rt1 rt2"
+          ;
+        }
+
+        .rt1{
+          grid-area: rt1;
+        }
+
+        .rt2{
+          grid-area: rt2;
+        }
+      }
+
+      .rimages{
+        display:none;
+  
+        @include lg{
+          margin: 0px 0px 64px 0px;
+          gap:16px;
+          grid-area:rimages;
+          display:grid;
+          grid-template-columns: auto auto auto auto auto auto;
+          grid-template-areas:
+          "ri1 ri2 ri3 ri4 ri5 ri6"
+          ;
+        }
+
+        .ri1{
+          grid-area: ri1;
+        }
+
+        .ri2{
+          grid-area: ri2;
+        }
+
+        .ri3{
+          grid-area: ri3;
+        }
+
+        .ri4{
+          grid-area: ri4;
+        }
+
+        .ri5{
+          grid-area: ri5;
+        }
+
+        .ri16{
+          grid-area: ri6;
+        }
+      }
+
+      .rcards{
+        margin: 0px 0px 0px 0px;
+        gap:16px;
+        grid-area:rcards;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas:
+        "rc1"
+        "rc2"
+        "rc3"
+        ;
+  
+        @include lg{
+          margin: 0px 0px 0px 0px;
+          gap:24px;
+          grid-area:rcards;
+          display: grid;
+          grid-template-columns: auto auto auto;
+          grid-template-areas:
+          "rc1 rc2 rc3"
+          ;
+        }
+
+        .rc1{
+          background-color: $green;
+          color: $white;
+          padding:8px 8px 8px 8px;
+          grid-area: rc1;
+
+          @include lg{
+            padding:8px 8px 24px 8px;
+          }
+        }
+
+        .rc2{
+          background-color: $green;
+          color: $white;
+          padding:8px 8px 8px 8px;
+          grid-area: rc2;
+
+          @include lg{
+            padding:8px 8px 24px 8px;
+          }
+        }
+
+        .rc3{
+          background-color: $green;
+          color: $white;
+          padding:8px 8px 8px 8px;
+          grid-area: rc3;
+
+          @include lg{
+            padding:8px 8px 24px 8px;
+          }
+        }
+
+        .large-images{
+          display: none;
+
+          @include lg{
+            display: block;
+          }
+        }
+      }
+
+   }
+
+   h5{
+    font-size: 32px;
+    color: $dark-grey;
+    margin: 0px 0px 16px 0px;
+
+      @include lg{
+          font-size: 64px;
+          margin: 0px 0px 32px 0px;
+      }
+    }
+
+   h3{
+    font-size: 24px;
+    color: $dark-grey;
+    font-weight: 400;
+   }
+  
+   h2{
+    font-size: 24px;
+    color: $white;
+    font-weight: 700;
+   }
+}
+
+.reviewlink{
+  color: $hot-pink;
+  font-weight: 400;
+
+  padding: 0px 0px 96px 0px;
+  display:grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: 
+  ". rlink ."
+  ;
+
+  @include lg{
+      padding: 0px 0px 204px 0px;
+      display:grid;
+      grid-template-columns: 136px auto 136px;
+      grid-template-areas: 
+      ". rlink ."
+      ; 
+  }
+
+  .rlink{
+      grid-area: rlink;
+  }
+
+  a{
+    color: $hot-pink;
+    transition: .5s;
+  }
+
+  a:hover{
+      color: $red;
+  }
+}

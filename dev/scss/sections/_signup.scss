@@ -1,0 +1,117 @@
+/* =============
+   sign up
+============= */
+
+.signup-background{
+  background-image: url('../img/signup/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+ 
+ 
+ .signup{
+ 
+ 
+    color: $white;
+    font-weight: 400;
+    font-size: 12px;
+ 
+ 
+    @include lg{
+      font-size: 24px;
+      margin: 0px 0px 0px 950px;
+    }
+ 
+ 
+    display:grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas:
+     ". sucontent ."
+    ;
+ 
+ 
+    @include lg{
+      display:grid;
+      width: 525px;
+      padding-top: 150px;
+      align-self: right;
+      grid-template-columns: auto auto auto;
+      grid-template-areas:
+      ". sucontent ."
+    }
+   
+    .sucontent{
+        background-color: $green;
+        color: $white;
+        text-align: center;
+        padding: 16px;
+        grid-area:sucontent;
+ 
+ 
+        @include lg{
+          padding: 16px 32px 16px 32px;
+        }
+    }
+ 
+ 
+    h1{
+      align-self: center;
+      font-size: 32px;
+      font-weight: 700;
+ 
+ 
+      @include lg{
+        font-size: 96px;
+      }
+    }
+ 
+ 
+    p{
+      align-self: center;
+    }
+ 
+ 
+    form{
+      display:flex;
+      flex-flow:wrap;
+      justify-content:end;
+   
+      input{
+          width:100%;
+          color:$white;
+          background: $green;
+          border-color: white;
+          padding:15px 10px 15px 10px;
+          margin:20px 0px 20px 0px;
+      }
+   
+      ::placeholder{
+          color:$white;
+          opacity: 0.5;
+      }
+   
+      ::-ms-input-placeholder{
+          color:$white;
+      }
+    }
+ 
+ 
+    button{
+      color:$green;
+      background-color: $white;
+      padding:10px 20px 10px 20px;
+      text-decoration: none;
+      text-align:center;
+      border:none;
+      transition: .5s;
+ 
+ 
+  }
+ 
+ 
+  button:hover{
+      color: $white;
+      background-color: $hot-pink;
+    }
+   
+ } 

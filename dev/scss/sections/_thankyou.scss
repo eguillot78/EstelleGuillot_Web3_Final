@@ -1,0 +1,147 @@
+/* =============
+   Thank You
+============= */
+
+.thankyou{
+
+  margin: 32px 0px 0px 0px;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas:
+  ". tymessage ."
+  ". tysocials ."
+  ". tybutton ."
+  ;
+
+  @include lg{
+    margin: 64px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: 224px auto 224px;
+    grid-template-areas:
+    ". tymessage ."
+    ". tysocials ."
+    ". tybutton ."
+    ;
+  }
+
+  .tymessage{
+
+    justify-self: center;
+    grid-area:tymessage;
+    background-color: $green;
+    max-height: 328px;
+    max-width: 274px;
+    color: $white;
+    font-weight: 400;
+    padding: 24px;
+    text-align: center;
+  
+    @include lg{
+      background-color: $green;
+      max-height: 422px;
+      max-width: 992px;
+      color: $white;
+      font-weight: 400;
+      padding: 64px;
+      text-align: center;
+    }
+  
+  }
+  
+  .tysocials{
+
+    justify-self: center;
+    text-align: center;
+    grid-area:tysocials;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    "followus"
+    "socialicons";
+
+    .followus{
+      font-size: 16px;
+      grid-area: followus;
+      margin: 56px 0px 0px 0px;
+
+      @include lg{
+        font-size: 32px;
+      }
+    }
+
+    .socialicons{
+      margin: 0px;
+      grid-area: socialicons;
+
+      ul li{
+        display: inline-block;
+        column-gap: 24px;
+      }
+
+      li{
+        margin: 16px;
+        padding: 0px;
+
+        @include lg{
+          margin: 24px;
+        }
+      }
+
+      img{
+        width: 56px;
+        height: 156px;
+
+        @include lg{
+          width: 100px;
+          height: 100px;
+        }
+      }
+    }
+  
+  }
+  
+  .tybutton{
+    
+    max-height: 64px;
+    max-width: 420px;
+    justify-self: center;
+    grid-area:tybutton;
+    border-style: none;
+    margin-top: 56px;
+    margin-bottom: 64px;
+    width: 211px;
+    height: 32px;
+    background-color: $hot-pink;
+    color: white;
+    text-align: center;
+  
+    @include lg{
+      margin-top: 56px;
+      margin-bottom: 96px;
+      width: 422px;
+      height: 64px;
+    }
+  
+  }
+
+  button:hover{
+    background-color: $red;
+    transition: .5s;
+  }
+
+  h1{
+    font-size: 32px;
+
+    @include lg{
+      font-size: 64px;
+    }
+  }
+
+  h2{
+    font-size: 16px;
+
+    @include lg{
+      font-size: 48px;
+    }
+  }
+
+}

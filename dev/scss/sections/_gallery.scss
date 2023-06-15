@@ -33,10 +33,10 @@
         grid-template-columns: auto auto;
         gap:8px;
         grid-template-areas:
-        "g1 g1 g1 g1 g2 g2 g2"
-        "g4 g4 g4 g3 g3 g3 g3"
-        "g6 g6 g6 g6 g5 g5 g5"
-        "g7 g7 g7 g8 g8 g8 g8"
+        "g1 g1 g1 g2 g2"
+        "g4 g4 g3 g3 g3"
+        "g6 g6 g6 g5 g5"
+        "g7 g7 g8 g8 g8"
         ;
  
  
@@ -45,8 +45,8 @@
             grid-template-columns: auto auto auto auto;
             gap:16px;
             grid-template-areas:
-            "g1 g1 g1 g1 g2 g2 g2 g3 g3 g3 g4 g4 g4 g4"
-            "g5 g5 g5 g5 g6 g6 g6 g7 g7 g7 g8 g8 g8 g8"
+            "g1 g1 g1 g2 g2 g3 g3 g3 g4 g4"
+            "g5 g5 g6 g6 g6 g7 g7 g8 g8 g8"
             ;
         }
  
@@ -89,6 +89,11 @@
             .g8{
                 grid-area:g8;
             }
+        }
+
+        img{
+            width: 100%;
+            object-fit: cover;
         }
     }
  

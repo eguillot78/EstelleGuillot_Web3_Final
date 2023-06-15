@@ -123,6 +123,7 @@
   
         @include lg{
           margin: 0px 0px 0px 0px;
+          min-height: 594px;
           gap:24px;
           grid-area:rcards;
           display: grid;

@@ -2,190 +2,157 @@
     Header
 ============= */
 
-.header{
-
-
-    background: $navy;
-    color: $white;
-    max-height: 77px;
+header{
     font-size: 24px;
- 
- 
-    display:grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas:
-    ". hcontent ."
-    ;
- 
- 
-    .hcontent{
- 
- 
-        grid-area: hcontent;
-        display:grid;
-        grid-template-columns: auto auto auto auto;
-        grid-template-areas:
-        "hc1 hc7 hc8";
- 
- 
-        @include lg{
-            grid-area: hcontent;
-            display:grid;
-            grid-template-columns: auto auto auto auto auto auto auto auto;
-            grid-template-areas:
-            "hc1 hc2 hc3 hc4 hc5 hc6 hc7 hc8";
-        }
- 
- 
-        .hc1{
-            grid-area: hc1;
-        }
- 
- 
-        .hc2{
-            display: none;
- 
- 
-            @include lg{
-                display: block;
-                grid-area: hc2;
-            }
-        }
- 
- 
-        .hc3{
-            display: none;
- 
- 
-            @include lg{
-                display: block;
-                grid-area: hc3;
-            }
-        }
- 
- 
-        .hc4{
-            display: none;
- 
- 
-            @include lg{
-                display: block;
-                grid-area: hc4;
-            }
-        }
- 
- 
-        .hc5{
-            display: none;
- 
- 
-            @include lg{
-                display: block;
-                grid-area: hc5;
-            }
-        }
- 
- 
-        .hc6{
-            display: none;
- 
- 
-            @include lg{
-                display: block;
-                grid-area: hc6;
-            }
-        }
- 
- 
-        .hc7{
-            grid-area: hc7;
-        }
- 
- 
-        .hc8{
-            grid-area: hc8;
-        }
-    }
- 
- 
-    a{
-        color: $white;
-        text-decoration: none;
-        transition: .5s;
-    }
- 
- 
-    a:hover{
-        color: $red;
-    }
- 
- 
-    h5{
-        color: $white;
-        font-size: 20px;
-        margin:8px 0px 8px 0px;
- 
- 
-        @include lg{
-            color: $white;
-            font-size: 40px;
-            margin:16px 0px 16px 0px;
-        }
-    }
- }
- 
- 
- header.container{
-    padding: 24px 0;
-    position: fixed;
+    height: 77px;
     width: 100%;
+    background-color: $navy;
+    color: $white;
+    display: grid;
+    grid-template-columns: 70% 20% 10%;
+    grid-area: 
+    "nav-branding navmenu . .";
+}
+
+li{
+    list-style:none;
+}
+
+a{
+    color:$white;
+    text-decoration: none;
+}
+
+.navbar{
+    min-height: 77px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.nav-menu{
+    justify-content: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-branding{
+    font-size: 40px;
+    padding-right: 48px;
+}
+
+.nav-link{
+    transition: .5s ease;
+}
+
+.nav-link:hover{
+    color: $red;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 24px;
+    height: 4px;
+    margin: 4px auto;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
     background-color: white;
- 
- 
-    .content{
- 
- 
-        display: grid;
-        grid-template-columns: 50% auto;
-        grid-template-areas: "logo burger";
- 
- 
-        @include lg{
-            grid-template-areas: "logo nav";
-        }
- 
- 
-        .logo{
-            color: $black;
-            font-size: 40px;
-        }
- 
- 
-        .burger-container{
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
- 
- 
-            @include lg{
-                display: none;
-            }
- 
- 
-            button{
-                border: none;
-                background-color: transparent;
-                color: $black;
-                font-size: 20px;
- 
- 
-                &:hover{
-                    cursor: pointer;
-                }
-            }
-        }
+}
+
+@media (max-width:900px){
+    .hamburger{
+        display: block;
     }
- 
- 
- }
- 
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color:$navy;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item{
+        margin: 16px 0;
+    }
+
+    .nav-menu.active{
+        left: 0;
+    }
+}
+
+form{
+   justify-self: left;
+    align-self: center;
+    min-height: 16px;
+    display:flex;
+    flex-flow:wrap;
+    justify-content:end;
+
+    @include lg{
+      max-height: 40px;
+    }
+
+    input{
+        width:100%;
+        background-color: $navy;
+        color:$white;
+        border-color: $white;
+        border-style: solid;
+  }
+}
+
+::placeholder{
+    color: white;
+    opacity: 100%;
+}
+
+.search{
+    display: none;
+
+    @include lg{
+        display: block;
+        justify-self: left;
+    }
+}
+
+.shop{
+    display: none;
+
+    @include lg{
+        display: block;
+        padding-right: 24px;
+        justify-self: right;
+        justify-content: center;
+        align-self: center;
+    }
+}
+
+a:hover{
+    color: $red;
+    transition: .5s;
+}

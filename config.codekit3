@@ -50,30 +50,6 @@
       "oAP" : "\/deploy\/html\/checkout.html",
       "oF" : 0
     },
-    "\/deploy\/html\/first.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/html\/first.html",
-      "oF" : 0
-    },
-    "\/deploy\/html\/reviews.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/html\/reviews.html",
-      "oF" : 0
-    },
-    "\/deploy\/html\/second.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/html\/second.html",
-      "oF" : 0
-    },
     "\/deploy\/html\/thankyou.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -82,13 +58,57 @@
       "oAP" : "\/deploy\/html\/thankyou.html",
       "oF" : 0
     },
-    "\/deploy\/html\/third.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
+    "\/deploy\/img\/Checkout\/applepay.png" : {
+      "ft" : 32768,
+      "iS" : 1927,
       "oA" : 0,
-      "oAP" : "\/deploy\/html\/third.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/img\/Checkout\/applepay.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Checkout\/mastercard.png" : {
+      "ft" : 32768,
+      "iS" : 2224,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Checkout\/mastercard.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Checkout\/paypal.png" : {
+      "ft" : 32768,
+      "iS" : 2432,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Checkout\/paypal.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Checkout\/visa.png" : {
+      "ft" : 32768,
+      "iS" : 2240,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Checkout\/visa.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/FeaturesSpecs\/fast.svg" : {
       "ft" : 2097152,
@@ -322,6 +342,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/deploy\/img\/Reviews\/5stars.png" : {
+      "ft" : 32768,
+      "iS" : 1201,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Reviews\/5stars.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/Reviews\/review1.jpg" : {
       "ft" : 16384,
@@ -709,6 +742,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/_checkout.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_checkout.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/sections\/_features.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -794,6 +842,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_specs.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_thankyou.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_thankyou.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

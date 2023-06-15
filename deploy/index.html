@@ -22,66 +22,42 @@
   
   
      <header class="header">
-  
-  
-       <div class="hcontent">
-  
-  
-         <div class="hc1">
-           <h5>Glowforge</h5>
-         </div>
-  
-  
-         <!-- Mobile nav Icon, Won't Display on Desktop & Up-->
-         <div class="burger-container">
-           <button id="burger-btn">
-             <i class="fa-solid fa-bars"></i>
-           </button>
-         </div>
-         <!--End Mobile Nav Icon-->
-  
-  
-         <!--Menu Alters Between Mobile/Tablet & Desktop-->
-         <nav id="main-menu">
-           <div class="hide-for-lg">
-             <button id="close-btn">
-               <i class="fa-solid fa-xmark-large"></i>
-             </button>
-           </div>
-           <ul>
-             <li><a href="html/first.html">Products</a></li>
-             <li><a href="html/second.html">Reviews</a></li>
-             <li><a href="html/third.html">Sign Up</a></li>
-             <li><a href="#">EDU</a></li>
-             <li><a href="#">FAQ</a></li>
-           </ul>
-         </nav>
-         <!--End Nav-->
-        
-         <div class="hc2">
-           <a href="#">Products</a>
-         </div>
-         <div class="hc3">
-           <a href="#">Reviews</a>
-         </div>
-         <div class="hc4">
-           <a href="#">Sign Up</a>
-         </div>
-         <div class="hc5">
-           <a href="#">EDU</a>
-         </div>
-         <div class="hc6">
-           <a href="#">FAQ</a>
-         </div>
-         <div class="hc7">
-           <img src="img/header/search.svg" alt="Search Icon">
-         </div>
-         <div class="hc8">
-           <img src="img/header/emptycart.svg" alt="Empty Cart Icon">
-         </div>
-  
-  
-       </div>
+
+        <nav class="navbar">
+          <a href="#" class="nav-branding"><b>Glowforge</b></a>
+
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="html/checkout.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a href="html/thankyou.html">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">EDU</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">FAQ</a>
+            </li>
+          </ul>
+
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+
+        <form class="search">
+          <input type="Search" placeholder="Search">
+        </form>
+
+        <div class="shop">
+          <img src="img/header/emptycart.svg">
+        </div>
       
      </header>
   
@@ -456,6 +432,7 @@
            <div class="rc1">
              <img class="large-images" src="img/reviews/reviewcard1.jpg" alt="Review Card Img 1">
              <h2>Robert O.</h2>
+             <img src="img/reviews/5stars.png">
              <p>
                This thing is amazing. I absolutely love it.
                It does get dirty quick and needs to be
@@ -472,6 +449,7 @@
            <div class="rc2">
              <img class="large-images" src="img/reviews/reviewcard2.jpg" alt="Review Card Img 2">
              <h2>Estelle G.</h2>
+             <img src="img/reviews/5stars.png">
              <p>
                I have loved my Glowforge pro and have
                run it really well for over a year. Service
@@ -486,6 +464,7 @@
            <div class="rc3">
              <img class="large-images" src="img/reviews/reviewcard3.jpg" alt="Review Card Img 3">
              <h2>Fiona O.</h2>
+             <img src="img/reviews/5stars.png">
              <p>
                The machine itself is a sturdy bit of kit
                and is delivered in really well thought out
@@ -527,22 +506,28 @@
        <div class="sucontent">
   
   
-           <h1>Sign Up</h1>
+        <div class="sum">
+          <h1>Sign Up</h1>
            <p>
-             Become a subscriber for Glowforge news, discounts on future Glowforge purchases, and access to our premium software services. Start your free trial today!
+             Become a subscriber for Glowforge news, discounts on future Glowforge purchases, and access to our premium software services. <b>Start your free trial today!</b>
            </p>
-           <form>
-             <input type="Email">
-           </form>
-           <form>
-             <input type="Name">
-           </form>
-           <form>
-             <input type="Phone Number">
-           </form>
-           <button>
-             Start Free Trial
-           </button>
+        </div>
+        <div class="suf">
+          <form class="suf1">
+            <input type="Email" placeholder="Email">
+          </form>
+          <form class="suf2">
+            <input type="Name" placeholder="Name">
+          </form>
+          <form class="suf3">
+            <input type="Phone Number" placeholder="Phone Number">
+          </form>
+        </div>
+        <div class="sub">
+          <button>
+            Start Free Trial
+          </button>  
+        </div>
   
   
        </div>
@@ -645,7 +630,7 @@
            </ul>
   
   
-           <h5>Sales</h5>
+           <h5 class="sales">Sales</h5>
            <ul>
              <li>
                <p>+1 888 8GLOWFORGE</p>
@@ -661,7 +646,7 @@
   
          <div class="f5">
           
-           <h5>Socials</h5>
+           <h5 class="socials">Socials</h5>
   
   
              <div class="s1">

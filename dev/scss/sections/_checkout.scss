@@ -1,0 +1,479 @@
+/* =============
+   Checkout
+============= */
+
+.checkout{
+  margin: 32px 0px 0px 0px;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas:
+  ". cart ."
+  ". payment ."
+  ;
+
+  @include lg{
+    margin: 64px 0px 0px 0px;
+    display: grid;
+    column-gap: 32px;
+    grid-template-columns: 224px 614px auto 568px 224px;
+    grid-template-areas:
+    ". cart . payment .";
+  }
+
+  .cart{
+    max-width: 360px;
+    grid-area: cart;
+    display: grid;
+    column-gap: 8px;
+    grid-template-columns: 20% 80%;
+    grid-template-areas: 
+    "ctitle ctitle"
+    "cartimg cartcontent";
+
+    @include lg{
+      grid-template-columns: 30% 70%;
+      max-height: 364px;
+      max-width: 614px;
+      column-gap: 16px;
+    }
+
+    .ctitle{
+      font-size: 32px;
+      max-height: 97px;
+      grid-area: ctitle;
+      margin: 0px;
+      padding: 0px 0px 24px 0px;
+      border-bottom: 2px solid $light-grey;
+
+      @include lg{
+        font-size: 48px;
+        margin: 0px;
+        padding: 0px;
+      }
+    }
+
+    .cartimg{
+      grid-area: cartimg;
+      max-width: 76px;
+      max-height: 46px;
+      margin-top: 32px;
+
+      @include lg{
+        max-width: 190px;
+        max-height: 108px;
+        margin-top: 32px;
+      }
+
+      img{
+        width: 100%;
+      }
+    }
+
+    .cartcontent{
+      margin-bottom: 32px;
+      max-width: 268px;
+      overflow: hidden;
+      grid-area: cartcontent;
+      display: grid;
+      grid-template-columns: 70% 30%;
+      grid-template-areas: 
+      "cc1 cc2"
+      "cc3 cc4"
+      "cc5 cc6"
+      "cc7 cc8"
+      "cc9 cc10"
+      ;
+
+      @include lg{
+        max-width: 500px;
+      }
+
+      .cc1{
+        font-size: 16px;
+        grid-area: cc1;
+        margin: 32px 0px 40px 0px;
+        padding: 0px;
+
+        @include lg{
+          max-width: auto;
+          font-size: 32px;
+        }
+      }
+
+      .cc2{
+        font-size: 12px;
+        justify-self: right;
+        display: block;
+        grid-area: cc2;
+        text-align: center;
+        background-color: white;
+        color: $red;
+        border-color: $red;
+        border-style: solid;
+        height: 32px;
+        width: 64px;
+        margin: 32px 0px 40px 0px;
+        padding: 0px;
+
+        @include lg{
+          height: 43px;
+          width: 98px;
+          font-size: 16px;
+        }
+      }
+
+      .cc3{
+        grid-area: cc3;
+        font-size: 12px;
+        margin: 0px 0px 8px 0px;
+        padding: 0px 0px 8px 0px;
+        border-bottom: 2px solid $light-grey;
+
+        @include lg{
+          font-size: 16px;
+        }
+      }
+
+      .cc4{
+        grid-area: cc4;
+        font-size: 12px;
+        text-align: right;
+        margin: 0px 0px 8px 0px;
+        padding: 0px 0px 8px 0px;
+        border-bottom: 2px solid $light-grey;
+
+        @include lg{
+          font-size: 16px;
+        }
+      }
+
+      .cc5{
+        grid-area: cc5;
+        font-size: 12px;
+        margin: 0px 0px 8px 0px;
+        padding: 0px;
+
+        @include lg{
+          font-size: 16px;
+        }
+      }
+
+      .cc6{
+        grid-area: cc6;
+        font-size: 12px;
+        text-align: right;
+        margin: 0px 0px 8px 0px;
+        padding: 0px;
+
+        @include lg{
+          font-size: 16px;
+        }
+      }
+
+      .cc7{
+        grid-area: cc7;
+        font-size: 12px;
+        margin: 0px 0px 8px 0px;
+        padding: 0px;
+
+        @include lg{
+          font-size: 16px;
+        }
+      }
+
+      .cc8{
+        grid-area: cc8;
+        font-size: 12px;
+        text-align: right;
+        margin: 0px 0px 8px 0px;
+        padding: 0px;
+
+        @include lg{
+          font-size: 16px;
+        }
+      }
+
+      .cc9{
+        grid-area: cc9;
+        color: $hot-pink;
+        font-size: 16px;
+        margin: 0px 0px 8px 0px;
+        padding: 0px;
+
+        @include lg{
+          font-size: 24px;
+        }
+      }
+
+      .cc10{
+        grid-area: cc10;
+        font-size: 16px;
+        color: $hot-pink;
+        text-align: right;
+        margin: 0px;
+        padding: 0px;
+
+        @include lg{
+          font-size: 24px;
+        }
+      }
+
+      button:hover{
+        border-color: $red;
+        background-color: $red;
+        color: $white;
+        transition: .5s;
+      }
+    }
+  }
+
+  .payment{
+    justify-self: center;
+    background-color: $green;
+    color: white;
+    grid-area: payment;
+    display: grid;
+    grid-template-columns: auto;
+    padding: 0px 32px 0px 32px;
+    grid-template-areas:
+    "pt"
+    "pmt"
+    "pm"
+    "dt"
+    "delivery"
+    "pit"
+    "pi"
+    "pbutton"
+    ;
+
+    @include lg{
+      justify-self: right;
+      max-width: 568px;
+      height: 843px;
+      padding-bottom: 96px;
+    }
+
+    .pt{
+      grid-area: pt;
+      margin: 32px 0px 0px 0px;
+      font-size: 32px;
+    }
+
+    .pm{
+      justify-self: center;
+      max-width: 100%;
+      gap: 8px;
+      grid-area: pm;
+      display: grid;
+      grid-template-columns: 64px 64px 64px 64px;
+      grid-template-areas: 
+      "visa mastercard paypal apple";
+
+      @include lg{
+        gap: 16px;
+        grid-area: pm;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-areas: 
+        "visa mastercard paypal apple";
+      }
+
+      .visa{
+        background-color: white;
+        text-align: center;
+        grid-area: visa;
+      }
+
+      .mastercard{
+        background-color: white;
+        text-align: center;
+        grid-area: mastercard;
+      }
+
+      .paypal{
+        background-color: white;
+        text-align: center;
+        grid-area: paypal;
+      }
+
+      .apple{
+        background-color: white;
+        text-align: center;
+        grid-area: apple;
+      }
+
+      .cardoptions{
+        max-width: 64px;
+        max-height: 40px;
+
+        @include lg{
+          max-width: 106px;
+          max-height: 64px;
+        }
+      }
+    }
+
+    .delivery{
+      grid-area: delivery;
+      gap: 6px;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-areas: 
+      "email email"
+      "fn ln"
+      "addy addy"
+      "country state"
+      "city postal"
+      "pn pn";
+
+      .email{
+        grid-area: email;
+      }
+
+      .fn{
+        grid-area: fn;
+      }
+
+      .ln{
+        grid-area: ln;
+      }
+
+      .addy{
+        grid-area: addy;
+      }
+
+      .country{
+        grid-area: country;
+      }
+
+      .state{
+        grid-area: state;
+      }
+
+      .city{
+        grid-area: city;
+      }
+
+      .postal{
+        grid-area: postal;
+      }
+
+      .pn{
+        grid-area: pn;
+      }
+    }
+
+    .pi{
+      grid-area: pi;
+      display: grid;
+      gap: 6px;
+      grid-template-columns: 50% 50%;
+      grid-template-areas: 
+      "cn cn"
+      "exp cvc";
+
+      .cn{
+        grid-area: cn;
+      }
+
+      .exp{
+        grid-area: exp;
+      }
+
+      .cvc{
+        grid-area: cvc;
+      }
+    }
+
+    .pmt{
+      font-size: 16px;
+      grid-area: pmt;
+      margin: 24px 0px 8px 0px;
+      padding: 0px;
+
+      @include lg{
+        font-size: 24px;
+        grid-area: pmt;
+        margin: 32px 0px 12px 0px;
+        padding: 0px;
+      }
+    }
+  
+    .dt{
+      font-size: 16px;
+      grid-area: dt;
+      margin: 24px 0px 8px 0px;
+      padding: 0px;
+
+      @include lg{
+        font-size: 24px;
+        grid-area: dt;
+        margin: 32px 0px 12px 0px;
+        padding: 0px;
+      }
+    }
+  
+    .pit{
+      font-size: 16px;
+      grid-area: pit;
+      margin: 24px 0px 8px 0px;
+      padding: 0px;
+
+      @include lg{
+      font-size: 24px;
+      grid-area: pit;
+      margin: 32px 0px 12px 0px;
+      padding: 0px;
+      }
+    }
+
+    .pbutton{
+      justify-self: center;
+      margin: 32px 0px 96px 0px;
+    }
+
+    button{
+      height: 32px;
+      padding: 2px 96px 2px 96px;
+      font-size: 24px;
+      max-height: 32px;
+      max-width: 306px;
+      background-color: $white;
+      border-style: none;
+      color: $green;
+      
+    }
+
+    button:hover{
+      color: $white;
+      background-color: $hot-pink;
+      transition: .5s;
+    }
+
+    form{
+      height: 16px;
+      margin-top: 6px;
+      display:flex;
+      flex-flow:wrap;
+      justify-content:end;
+
+      @include lg{
+        margin-top: 16px;
+        height: 32px;
+      }
+
+      input{
+          width:100%;
+          background-color: $green;
+          color:$white;
+          border-color: $white;
+          border-style: solid;
+    }
+
+    ::placeholder{
+      color: white;
+      opacity: 100%;
+    }
+  }
+}
+}

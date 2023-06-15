@@ -5,13 +5,342 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/styles.css">
+
+    <!--fonts-->
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+     
+    <link rel="stylesheet" href="../css/styles.css">
     <title>Checkout</title>
 
   </head>
 
   <body>
 
-    <script src="js/scripts-min.js"></script>   
+    <!--header-->
+
+    <header class="header">
+
+      <nav class="navbar">
+        <a href="../index.html" class="nav-branding"><b>Glowforge</b></a>
+
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a href="../html/thankyou.html">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">EDU</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">FAQ</a>
+          </li>
+        </ul>
+
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+
+      <form class="search">
+        <input type="Search" placeholder="Search">
+      </form>
+
+      <div class="shop">
+        <img src="../img/header/emptycart.svg">
+      </div>
+    
+    </header>
+
+    <!--shopping cart-->
+
+    <section class="checkout">
+
+      <div class="cart">
+
+        <h1 class="ctitle">Shopping Cart</h1>
+
+        <img class="cartimg" src="../img/product/glowforgepromobile.png" alt="Product Img">
+
+        <div class="cartcontent">
+          <h2 class="cc1">Glowforge Pro</h2>
+          <button class="cc2"> Remove </button>
+          <p class="cc3">Qty: 1</p>
+          <p class="cc4">$6,995.00</p>
+          <p class="cc5">Shipping</p>
+          <p class="cc6">$5.00</p>
+          <p class="cc7">Taxes</p>
+          <p class="cc8">Free</p>
+          <p class="cc9"> TOTAL</p>
+          <p class="cc10">$7,000.00</p>
+        </div>
+
+      </div>
+
+      <div class="payment">
+
+        <h2 class="pt">Payment Info</h2>
+
+        <p class="pmt">Payment Method</p>
+
+        <div class="pm">
+          <img class="visa cardoptions" src="../img/checkout/visa.png" alt="Visa">
+          <img class="mastercard cardoptions" src="../img/checkout/mastercard.png" alt="MasterCard">
+          <img class="paypal cardoptions" src="../img/checkout/paypal.png" alt="Paypal">
+          <img class="apple cardoptions" src="../img/checkout/applepay.png" alt="Apple Pay">
+        </div>
+
+        <p class="dt">Delivery</p>
+
+        <div class="delivery">
+
+          <div class="email">
+            <form>
+              <input type="Email" placeholder="Email">
+            </form>
+          </div>
+          <div class="fn">
+            <form>
+              <input type="First Name" placeholder="First Name">
+            </form>
+          </div>
+          <div class="ln">
+            <form>
+              <input type="Last Name" placeholder="Last Name">
+            </form>
+          </div>
+          <div class="addy">
+            <form>
+              <input type="Address" placeholder="Address">
+            </form>
+          </div>
+          <div class="country">
+            <form>
+              <input type="Country" placeholder="Country">
+            </form>
+          </div>
+          <div class="state">
+            <form>
+              <input type="State" placeholder="State">
+            </form>
+          </div>
+          <div class="city">
+            <form>
+              <input type="City" placeholder="City">
+            </form>
+          </div>
+          <div class="postal">
+            <form>
+              <input type="Postal Code" placeholder="Postal Code">
+            </form>
+          </div>
+          <div class="pn">
+            <form>
+              <input type="Phone Number" placeholder="Phone Number">
+            </form>
+          </div>
+
+        </div>
+
+        <p class="pit">Payment</p>
+
+        <div class="pi">
+
+          <div class="cn">
+            <form>
+              <input type="Card Number" placeholder="Card Number">
+            </form>
+          </div>
+          <div class="exp">
+            <form>
+              <input type="Expiration Date" placeholder="Expiration Date">
+            </form>
+          </div>
+          <div class="cvc">
+            <form>
+              <input type="CVC" placeholder="CVC">
+            </form>
+          </div>
+
+        </div>
+
+        <button class="pbutton">Checkout</button>
+        
+      </div>
+
+    </div>
+
+    </section>
+
+      <!--Footer-->
+  
+  
+      <footer class="footer">
+  
+  
+        <div class="fcontent">
+   
+   
+          <div class="f1">
+   
+   
+            <h4>
+              Glowforge
+            </h4>
+            <p>
+              1938 Occidental Ave S Suite C
+              Seattle, WA 98134
+            </p>
+   
+   
+          </div>
+   
+   
+          <div class="f2">
+   
+   
+            <h5>Product</h5>
+            <ul>
+              <li>
+                <p>Home</p>
+              </li>
+              <li>
+                <p>Our Products</p>
+              </li>
+              <li>
+                <p>Gallery</p>
+              </li>
+              <li>
+                <p>Reviews</p>
+              </li>
+              <li>
+                <p>Sign Up</p>
+              </li>
+              <li>
+                <p>FAQ</p>
+              </li>
+            </ul>
+   
+   
+          </div>
+   
+   
+          <div class="f3">
+           
+            <h5>Company</h5>
+            <ul>
+              <li>
+                <p>TOS</p>
+              </li>
+              <li>
+                <p>Privacy Policy</p>
+              </li>
+              <li>
+                <p>Privacy Preferences</p>
+              </li>
+              <li>
+                <p>Referral Program Terms</p>
+              </li>
+              <li>
+                <p>Cookie Policy</p>
+              </li>
+              <li>
+                <p>Security</p>
+              </li>
+            </ul>
+   
+   
+          </div>
+   
+   
+          <div class="f4">
+           
+            <h5>Contact</h5>
+            <ul>
+              <li>
+                <p>hello@glowforge.com</p>
+              </li>
+            </ul>
+   
+   
+            <h5>Sales</h5>
+            <ul>
+              <li>
+                <p>+1 888 8GLOWFORGE</p>
+              </li>
+              <li>
+                <p>sales@glowforge.com</p>
+              </li>
+            </ul>
+   
+   
+          </div>
+   
+   
+          <div class="f5">
+           
+            <h5 class="socials">Socials</h5>
+   
+   
+              <div class="s1">
+                <img src="../img/socials/IG.svg" alt="Instagram">
+              </div>
+              <div class="s2">
+                <img src="../img/socials/twitter.svg" alt="Twitter">
+              </div>
+              <div class="s3">
+                <img src="../img/socials/FB.svg" alt="Facebook">
+              </div>
+              <div class="s4">
+                <img src="../img/socials/YT.svg" alt="Youtube">
+              </div>
+              <div class="s5">
+                <img src="../img/socials/LI.svg" alt="LinkedIn">
+              </div>
+              <div class="s6">
+                <img src="../img/socials/pin.svg" alt="Pinterest">
+              </div>
+   
+   
+          </div>
+   
+   
+        </div>
+   
+   
+      </footer>
+   
+   
+      <section class="footerlinks">
+   
+   
+        <div class="flinks">
+   
+   
+          <div class="fl1">
+            <a href="#">Designed by Estelle Guillot</a>
+          </div>
+   
+   
+          <div class="fl2">
+            <p>© Copyright 2023. Glowforge, Inc., All Rights Reserved.</p>
+          </div>
+   
+   
+        </div>
+   
+   
+      </section>
+
+    <script src="../js/scripts-min.js"></script>   
   </body>
 </html>

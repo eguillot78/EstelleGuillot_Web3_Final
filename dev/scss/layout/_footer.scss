@@ -5,14 +5,17 @@
 .footer{
 
     color: $dark-grey;
+    border-top: 2px solid $light-grey;
+    padding-top: 32px;
     font-weight: 400;
     font-size: 10px;
 
     @include lg{
+        padding-top: 64px;
         font-size: 16px;
     }
 
-    margin:32px 0px 16px 0px;
+    margin:0px 0px 16px 0px;
     display:grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: 
@@ -20,7 +23,7 @@
     ;
 
     @include lg{
-        margin:204px 0px 64px 0px;
+        margin:0px 0px 64px 0px;
         display:grid;
         grid-template-columns: 136px auto 136px;
         grid-template-areas: 
@@ -30,6 +33,7 @@
 
     .fcontent{
         grid-area:fcontent;
+        column-gap: 24px;
         display:grid;
         grid-template-columns: auto auto auto;
         grid-template-areas: 
@@ -40,6 +44,7 @@
         @include lg{
             grid-area:fcontent;
             display:grid;
+            column-gap: 64px;
             grid-template-columns: auto auto auto auto auto;
             grid-template-areas: 
             "f1 f2 f3 f4 f5"
@@ -48,6 +53,11 @@
 
         .f1{
             grid-area: f1;
+            margin-bottom: 12px;
+
+            @include lg{
+                margin: 0px;
+            }
         }
 
         .f2{
@@ -63,6 +73,7 @@
         }
 
         .f5{
+            margin-bottom: 12px;
             grid-area: f5;
             display:grid;
             gap:8px;
@@ -74,6 +85,8 @@
             ;
 
             @include lg{
+                margin: 0px;
+                max-height: 178px;
                 grid-area: f5;
                 display:grid;
                 gap:16px;
@@ -83,6 +96,30 @@
                 "s1 s2 s3"
                 "s4 s5 s6"
                 ;
+            }
+
+            .s1{
+                grid-area: s1;
+            }
+
+            .s2{
+                grid-area: s2;
+            }
+
+            .s3{
+                grid-area: s3;
+            }
+
+            .s4{
+                grid-area: s4;
+            }
+
+            .s5{
+                grid-area: s5;
+            }
+
+            .s6{
+                grid-area: s6;
             }
         }
     }
@@ -100,19 +137,49 @@
     }
 
     p{
-        font-size: 16px;
-        margin: 0px;
+        font-size: 10px;
+        margin-top: 6px;
+
+        @include lg{
+            font-size: 16px;
+            margin-top: 24px;
+        }
     }
 
+    .sales{
+        margin-top: 6px;
 
-    
+        @include lg{
+            display: block;
+            font-size: 16px;
+            margin-top: 24px;
+        }
+    }
+
+    .socials{
+        display: none;
+
+        @include lg{
+            display: block;
+        }
+    }
+
+    img{
+        height: 30px;
+        width: 30px;
+
+        @include lg{
+            height: 50px;
+            width: 50px;
+        }
+    }
 
 }
 
 .footerlinks{
     color: $grey;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 8px;
 
     margin:0px 0px 8px 0px;
     display:grid;
@@ -122,6 +189,7 @@
     ;
 
     @include lg{
+        font-size: 12px;
         margin:0px 0px 16px 0px;
         display:grid;
         grid-template-columns: 136px auto 136px;
